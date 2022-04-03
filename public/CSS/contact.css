@@ -1,0 +1,53 @@
+.transparentbox{
+    background-color: rgb(250, 221, 90);
+    opacity: 0.95;
+    padding: 1%;
+    }
+
+#head5{
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+body{
+    background-color: #21252917;
+}
+
+#head3{
+    font-family: Trebuchet MS;
+    font-weight: bold;
+}
+
+.contactusimg {
+    position: relative;
+}
+
+.contactusimg img {
+    position: relative;
+    z-index: 0;
+}
+
+.contactusoverlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index:1;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: justify;
+}
+
+.contactustext {
+  color: white;
+  font-size: 3.2vw;
+  font-family: 'Montserrat';
+  align-self: left;
+  pointer-events: none;
+}
+
+.contactusheading {
+    color: white;
+    font-size: 7vw;
+    align-self: left;
+    pointer-events: none;
+}
